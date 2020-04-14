@@ -4,13 +4,37 @@
 [Web for testing](https://webchat-dev.azurewebsites.net/#874ef829-a81e-40c8-bde1-9abcacb590e1) Note: client has to start conversation
 
 ## Use case of PoC
--  přepojit z konverzace botem na jejich agenta
--  povídat si s jejich agentem
--  ukončit spojení s agentem a tím i přepojit zpátky na chat
+
+- conversation handover between chatbot and agent
+- communication with human agent
+- conversation handover between human and chatbot
+
 
 ## API Documentation
 ### Technology handover
 TBD
+
+### API URL HU
+
+https://uat01.botoffice.net/erstegeorgeuat/rest/webhook/george
+
+Example Request: 
+
+```javascript
+{
+	"auth_token":"Kyiv7Po1v2",
+	"event":"message",
+	"timestamp":1457764197627,
+	"message_token":"1234567_3",
+	"sender":{ 
+		"id":"ABC1"
+	},
+	"message":{ 
+		"type":"text", 
+		"text":"asd" 
+	}
+}
+```
 
 ### Protocol diagram
 ![x](media/API-diagram.png)
@@ -30,3 +54,10 @@ together we will design rest of APIs which is needed for communication
 1/ starting a conversation
 2/ ending a conversation
 - next meeting is 7.4. 11am
+
+
+#### 7. April
+- we need service call to start conversation with human
+- we need testing capacity for "human hondover" - tomorrow we know timing from HU
+- @Jakub - next call - next tuesday
+- @Jakub send usecases
