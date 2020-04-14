@@ -1,8 +1,7 @@
 # Documentation of George Messaging prototype
 
 
-##Links
-
+## Links
 
 [Web for testing](https://webchat-dev.azurewebsites.net/#874ef829-a81e-40c8-bde1-9abcacb590e1) Note: client has to start conversation
 
