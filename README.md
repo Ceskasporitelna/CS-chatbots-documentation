@@ -7,9 +7,9 @@
 
 ## Use case of PoC
 
-- conversation handover between chatbot and agent
-- communication with human agent
-- conversation handover between human and chatbot
+- user can communicate with a webchat chatbot
+- user is able to do a handover from a  chatbot to a human agent
+- agent is able to do a handover back to the chatbot
 
 
 ## API Documentation
