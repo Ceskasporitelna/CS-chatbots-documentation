@@ -8,7 +8,7 @@
 [Web for testing](https://webchat-dev.azurewebsites.net/#874ef829-a81e-40c8-bde1-9abcacb590e1) Note: client has to start conversation
 
 
-## Goal of project
+## Project goal
 
 - ease of integration with the local BE
 - integration efforts to local BE not needing extensive customisation
