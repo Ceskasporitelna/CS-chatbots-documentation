@@ -1,15 +1,28 @@
 # Documentation of George Messaging prototype
 
+## Goal
+
 
 ## Links
 
 [Web for testing](https://webchat-dev.azurewebsites.net/#874ef829-a81e-40c8-bde1-9abcacb590e1) Note: client has to start conversation
 
+
+## Goal of project
+
+- ease of integration with the local BE
+- integration efforts to local BE not needing extensive customisation
+- integration efforts to local BE not encountering significant problems
+- base scope of functionality implemented in/towards local bank
+- no foreseable blockers found
+- possibility to conduct a end-to-end message round trip
+- maintenance of the chat component as one core solution (compared csas vs. ebh implementation)
+
 ## Use case of PoC
 
 - user can communicate with a webchat chatbot
-- user is able to do a handover from a  chatbot to a human agent
-- agent is able to do a handover back to the chatbot
+- user is able to do a handover from a chatbot to a human agent, to live chat
+
 
 
 ## API Documentation
@@ -39,7 +52,7 @@ Example Request:
 ```
 
 ### Protocol diagram
-![x](media/API-diagram.png)
+![API diagram](media/API-diagram.png)
 
 
 
@@ -63,3 +76,12 @@ together we will design rest of APIs which is needed for communication
 - we need testing capacity for "human hondover" - tomorrow we know timing from HU
 - @Jakub - next call - next tuesday
 - @Jakub send usecases
+
+
+#### 14. April
+- HU implement webhook
+- 	during today HU send time estimation
+- CS implement webhook and send URL 
+- 3pm kolik časů potřebují na implementaci
+- next call on thursday 1pm
+- access
