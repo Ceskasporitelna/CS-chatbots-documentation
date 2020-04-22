@@ -24,6 +24,15 @@
 - user is able to do a handover from a chatbot to a human agent, to live chat
 
 
+- vydefinovat striktneji, aby se nemohli vymlouvat
+- jasný scenar co probehne
+- end to end testovani - dohoda a harmonogram
+- 
+
+
+- 
+
+
 
 ## API Documentation
 ### Technology handover
@@ -85,3 +94,7 @@ together we will design rest of APIs which is needed for communication
 - 3pm kolik časů potřebují na implementaci
 - next call on thursday 1pm
 - access
+
+
+#### 21. April
+- this day HU will implement connector for ČS
