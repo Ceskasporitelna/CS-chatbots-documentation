@@ -98,3 +98,4 @@ together we will design rest of APIs which is needed for communication
 
 #### 21. April
 - this day HU will implement connector for ČS
+- next status Thu 23. April 13h
